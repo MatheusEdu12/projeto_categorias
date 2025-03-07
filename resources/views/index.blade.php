@@ -8,7 +8,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title text-primary fw-bold">Cadastro de Categorias</h5>
                     <p class="card-text">Cadastre a categoria dos seus produtos</p>
-                    <a class="btn btn-primary" href="/categorias">Cadastrar</a>
+                    <a class="btn btn-primary" href="{{ route('categorias.create') }}">Cadastrar</a>
                 </div>
             </div>
         </div>
